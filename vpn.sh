@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x #debug
+# set -x #debug
 poff 
 echo Get New pass
 OLDPASS=$(grep vpnbook /etc/ppp/chap-secrets | awk '{ print $3 }')
